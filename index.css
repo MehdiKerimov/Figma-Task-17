@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: #28293e;
+  min-height: 100vh;
+  padding: 180px 135px 176px 177px;
+}
+.container .box {
+  width: 570px;
+  height: 448px;
+  background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+}
+.container .box img {
+  width: 477px;
+  height: 420px;
+}
+.container .box-container {
+  display: flex;
+}
+.container .box-container .text-box {
+  position: relative;
+  margin-left: 130px;
+}
+.container .box-container .text-box h1 {
+  color: var(--Text_Light_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container .box-container .text-box h2 {
+  margin-top: 33px;
+  width: 470px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+.container .box-container .text-box h3 {
+  margin-top: 44px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .box-container .text-box p {
+  margin-top: 6px;
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  /font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container .box-container .text-box svg {
+  position: absolute;
+  right: 110px;
+}
