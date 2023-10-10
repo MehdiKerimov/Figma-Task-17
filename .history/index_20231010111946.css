@@ -13,9 +13,6 @@
   width: 570px;
   height: 448px;
   background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: end;
 }
 .container .box img {
   width: 477px;
@@ -23,7 +20,6 @@
 }
 .container .box-container {
   display: flex;
-  align-items: center;
 }
 .container .box-container .text-box {
   position: relative;
@@ -73,12 +69,5 @@
 }
 .container .box-container .text-box svg {
   position: absolute;
-  right: 48px;
-  top: 23px;
-  z-index: 0;
-}
-
-.box-1{
-  position: relative;
-  z-index: 1;
+  right: 110px;
 }

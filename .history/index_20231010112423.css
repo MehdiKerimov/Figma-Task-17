@@ -23,7 +23,6 @@
 }
 .container .box-container {
   display: flex;
-  align-items: center;
 }
 .container .box-container .text-box {
   position: relative;
@@ -74,11 +73,10 @@
 .container .box-container .text-box svg {
   position: absolute;
   right: 48px;
-  top: 23px;
-  z-index: 0;
+  top: 53px;
+  z-index: -1;
 }
 
 .box-1{
-  position: relative;
-  z-index: 1;
+  po
 }
